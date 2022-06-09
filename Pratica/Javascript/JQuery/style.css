@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    background-color: rgb(220, 220, 220);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+header{
+    width: 100%;
+}
+
+.cabecalho{
+    background: rgb(240,254,1);
+background: linear-gradient(324deg, rgba(240,254,1,1) 10%, rgba(21,98,31,1) 100%);
+    height: 4rem;
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.tabela{
+    margin: 1px solid red;
+}
+.time-casa{
+    background-color: blue;
+}
+.meio{
+    background-color: yellow;
+}
+.time-visitante{
+    background-color: green;
+}
+.horizontal{
+    align-items: center;
+}
+.s-bet{
+    justify-content: space-between;
+}
+.ml2{
+    margin-left: 2rem;
+}
+.mr2{
+    margin-right: 2rem;
+}
+.mt2{
+    margin-top: 2rem;
+}
+

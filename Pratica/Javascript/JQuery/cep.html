@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requisição em Jquery</title>
+    <script src="complementos/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="flex cabecalho horizontal s-bet">
+        <h2 class="ml2">Busque por cep</h2>
+        <div class="mr2">
+            <input type="text" name="" id="cep">
+            <button type="button" onclick="consultaCep()">Consultar</button>
+        </div>
+    </header>
+
+
+    <div class="container ml2 mr2 mt2">
+        <h2 id="titulo_cep"></h2>
+        <h3 id="localidade"></h3>
+        <h3 id="bairro"></h3>
+        <h3 id="logradouro"></h3>
+        <h3 id="complemento"></h3>
+        <h3 id="uf"></h3>
+        <h3 id="ddd"></h3>
+    </div>
+
+    <script src="complementos/cep.js"></script>
+</body>
+</html

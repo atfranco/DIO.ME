@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    font-size: 15px;
+}
+header{
+    background-color: #003566;
+    height: 3rem;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 20px;
+    font-weight: 400;
+}
+table{
+    margin: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+    border: #003566 solid 1px;   
+}
+td{
+    text-align: center;
+    background-color: #DFDFE0;
+}
+th{
+    max-width: 100px;
+    background-color: #003566;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    height: 2rem;  
+}
+input{
+    font-size: 15px;
+    padding: 5px;
+    margin: 2px;
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+}
+.cadastrar{
+    font-size: 15px;
+    padding: 5px;
+    background-color: rgb(71, 187, 255);
+    border: 0;
+    border-radius: 0 10px 10px 0;    
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.delete{
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 1rem;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.delete:hover{
+    background-color: rgb(197, 22, 22);
+}
+@media only screen and (max-width: 600px) {
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+    input{
+        width: 100%;
+    }
+    .cadastrar{
+        margin-top: 5px;
+        width: 100%;
+        border-radius: 0;
+    }
+
+  }

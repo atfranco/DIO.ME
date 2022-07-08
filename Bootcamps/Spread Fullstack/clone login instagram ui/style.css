@@ -66,15 +66,13 @@ body{
     height: 3rem;
     margin-bottom: 1rem;
 }
-
-
 .perfil{
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100%;
-    max-width: 150px;
-    max-height: 150px;
+    width: 150px;
+    height: 150px;
 }
 .login{
     background-color: rgba(131,58,180,1);

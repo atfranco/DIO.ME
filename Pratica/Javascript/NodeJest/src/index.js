@@ -1,14 +1,15 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
 //importa
-import express from 'express';
-import { routes } from './routes.js';
+const express_1 = __importDefault(require("express"));
 //define
-const server = express();
+const server = (0, express_1.default)();
 //habilita sv a ler o json
-server.use(express.json())
-//definindo rotas
-server.use(routes)
+server.use(express_1.default.json());
 // porta
-
 server.listen(5000, () => {
-    console.log('servidor on na porta 5000')
-})
+    console.log('servidor on na porta 5000');
+});

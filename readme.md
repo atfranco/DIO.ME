@@ -10,5 +10,10 @@ JAVASCRIPT {
     Node.Js
 }
 
-Clone Interface Instagram = Frontend {Html + CSS}
+# Clone Interface Instagram = Frontend {Html + CSS}
+
 https://arthurdev.tech/clone-instagram-login/
+
+# Controle Estacionamento em Typescript com localstorage = Frontend {Html + CSS + TS/JS}
+
+https://arthurdev.tech/estacionamento-cadastros-typescript/

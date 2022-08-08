@@ -5,7 +5,7 @@ function getData(){
         "method" : "GET",
         "headers" : {
             "X-RapidAPI-Host": "thesportsdb.p.rapidapi.com",
-            "X-RapidAPI-Key": "ea4c245977msh2ca368e53df7a46p1fea4ejsnefd1b54daa10"
+            "X-RapidAPI-Key": "MOCK"
         }
     })
     .then(response => response.json().then(data =>{
